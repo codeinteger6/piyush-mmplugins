@@ -159,7 +159,7 @@ class GiveawayPlugin(commands.Cog):
 
                 embed = message.embeds[0]
                 embed.description = (
-                    f"React with 🎉 to enter the giveaway!\n**Be sure to read the requirements first before reacting!**\n"
+                    f"React with 🎉 to enter the giveaway!\n**Be sure to read the requirements first before reacting!**\n\n"
                     f"Time Remaining: **{time_remaining}**"
                 )
                 await message.edit(embed=embed)
